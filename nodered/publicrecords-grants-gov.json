@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "type": "tab",
+    "label": "Public Records Grants.gov",
+    "disabled": false,
+    "info": "Runs publicrecords/grants-gov-scraper on YOUR Apify account. Set APIFY_TOKEN. Disclosure: Public Records maintains the Actor."
+  },
+  {
+    "id": "2",
+    "type": "inject",
+    "z": "1",
+    "name": "every morning",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "",
+    "crontab": "00 07 * * *",
+    "once": false,
+    "x": 120,
+    "y": 80,
+    "wires": [
+      [
+        "3"
+      ]
+    ]
+  },
+  {
+    "id": "3",
+    "type": "http request",
+    "z": "1",
+    "name": "Apify grants-gov-scraper",
+    "method": "POST",
+    "ret": "obj",
+    "url": "https://api.apify.com/v2/acts/publicrecords~grants-gov-scraper/run-sync-get-dataset-items?token=${APIFY_TOKEN}",
+    "headers": [
+      {
+        "key": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "payload": "{\"status\": \"posted\", \"maxItems\": 50}",
+    "x": 360,
+    "y": 80,
+    "wires": [
+      [
+        "4"
+      ]
+    ]
+  },
+  {
+    "id": "4",
+    "type": "debug",
+    "z": "1",
+    "name": "grants",
+    "x": 560,
+    "y": 80,
+    "wires": []
+  }
+]
