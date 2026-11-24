@@ -1,3 +1,5 @@
+**READMEs:** [English](README.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md) · [한국어](README.ko.md)
+
 # Public Records — automation recipes
 
 Ready-to-run examples that call [Public Records](https://apify.com/publicrecords) Apify Actors **on your Apify account**. Set `APIFY_TOKEN` (or the platform's secret) to your own token. Do not commit tokens.
@@ -15,8 +17,9 @@ Also see the 17 n8n workflows and Make / Zapier / Pipedream / Activepieces / Cla
 | Activepieces | [`activepieces/publicrecords-grants-gov.md`](activepieces/publicrecords-grants-gov.md) |
 | Airbyte (recipe) | [`airbyte/publicrecords-grants-gov.md`](airbyte/publicrecords-grants-gov.md) |
 
-Per-Actor code examples (Python, JavaScript, curl) with READMEs in English, Spanish, German, French, Japanese and Portuguese live in the `publicrecords-*-examples` repositories under [GeminiGeorge22](https://github.com/GeminiGeorge22).
+Per-Actor code examples (Python, JavaScript, curl) with READMEs in English, Spanish, Brazilian Portuguese, Portuguese, German, French, Japanese, Simplified Chinese and Korean live in the `publicrecords-*-examples` repositories under [GeminiGeorge22](https://github.com/GeminiGeorge22).
 
 Public snapshot datasets: [Hugging Face @Publicrecords](https://huggingface.co/Publicrecords).
 
 Disclosure: Public Records maintains these Actors; they are pay-per-use on Apify (free tier available). Author: Public Records. License: MIT. No GitHub Actions in this repository.
+
