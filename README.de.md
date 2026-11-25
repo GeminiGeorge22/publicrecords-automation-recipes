@@ -23,3 +23,4 @@ Codebeispiele je Actor (Python, JavaScript, curl) mit lokalisierten READMEs lieg
 
 Hinweis: Public Records pflegt diese Actors; die Nutzung wird bei Apify abgerechnet (kostenlose Stufe verfügbar). Autor: Public Records. Lizenz: MIT. Dieses Repository enthält keine GitHub Actions.
 
+Es gibt auch Rezepte für `publicrecords/tennis-scores-api` (Apify-API, eigener Token; kein MCP-Endpunkt). Der Beispiel-Repo-Index steht in [README.md](README.md).

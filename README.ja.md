@@ -23,3 +23,4 @@ Actor ごとのコード例（Python、JavaScript、curl）と各国語 README �
 
 開示: これらの Actor は Public Records が維持し、Apify の従量課金（無料枠あり）で実行します。作者: Public Records。ライセンス: MIT。このリポジトリに GitHub Actions はありません。
 
+`publicrecords/tennis-scores-api` のレシピもあります（Apify API、利用者自身のトークン。MCP エンドポイントはありません）。サンプルリポジトリの一覧は [README.md](README.md) にあります。

@@ -23,3 +23,4 @@ Actor별 코드 예제(Python, JavaScript, curl)와 번역된 README는 [GeminiG
 
 고지: 이 Actor는 Public Records가 유지하며, Apify에서 사용량 기준으로 청구됩니다(무료 요금제 있음). 작성자: Public Records. 라이선스: MIT. 이 저장소에는 GitHub Actions가 없습니다.
 
+`publicrecords/tennis-scores-api` 레시피도 있습니다(Apify API, 사용자 본인 토큰; MCP 엔드포인트 없음). 예제 저장소 목록은 [README.md](README.md)에 있습니다.

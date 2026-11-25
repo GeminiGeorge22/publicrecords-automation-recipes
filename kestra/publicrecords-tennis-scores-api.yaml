@@ -1,0 +1,36 @@
+id: publicrecords-tennis-scores-api
+namespace: company.team
+
+inputs:
+  - id: max_results
+    type: INT
+    displayName: Max rows
+    defaults: 20
+
+tasks:
+  - id: run_actor
+    type: io.kestra.plugin.apify.actor.Run
+    actorId: publicrecords/tennis-scores-api
+    apiToken: "{{ secret('APIFY_API_TOKEN') }}"
+    maxItems: "{{ inputs.max_results }}"
+    maxTotalChargeUsd: 5
+    input:
+      tournament: "wimbledon"
+      date: "2026-07-12"
+      maxResults: 20
+
+  - id: get_dataset
+    type: io.kestra.plugin.apify.dataset.Get
+    apiToken: "{{ secret('APIFY_API_TOKEN') }}"
+    datasetId: "{{ outputs.run_actor.defaultDatasetId }}"
+
+extend:
+  title: Pull ATP and WTA tennis scores from the Tennis Scores API
+  metaTitle: Pull ATP and WTA tennis scores with Kestra
+  shortDescription: Run publicrecords/tennis-scores-api on a schedule and fetch match or ranking rows.
+  description: |
+    Run the **Public Records** Apify Actor `tennis-scores-api` on a schedule, using **your** Apify API token stored as the Kestra secret `APIFY_API_TOKEN`. Usage is billed to your Apify account (free tier available). Standby/MCP mode is not built; this recipe calls the Apify API only.
+
+    Store page: https://apify.com/publicrecords/tennis-scores-api
+
+    Disclosure: Public Records maintains this Actor.

@@ -23,3 +23,4 @@ Jeux de données publics : [Hugging Face @Publicrecords](https://huggingface.co/
 
 Information : Public Records maintient ces Actors ; l'usage est facturé sur Apify (offre gratuite disponible). Auteur : Public Records. Licence : MIT. Pas de GitHub Actions dans ce dépôt.
 
+Il existe aussi des recettes pour `publicrecords/tennis-scores-api` (API Apify, jeton personnel ; pas de point de terminaison MCP). L'index des dépôts d'exemples est dans [README.md](README.md).

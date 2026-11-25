@@ -23,3 +23,4 @@
 
 说明：这些 Actor 由 Public Records 维护，在 Apify 上按使用量计费（提供免费套餐）。作者：Public Records。许可证：MIT。本仓库未启用 GitHub Actions。
 
+另有 `publicrecords/tennis-scores-api` 的配方（通过 Apify API、使用您自己的令牌；无 MCP 端点）。示例仓库索引见 [README.md](README.md)。
