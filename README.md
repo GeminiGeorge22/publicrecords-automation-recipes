@@ -2,6 +2,10 @@
 
 # Public Records — automation recipes
 
+**Try it, tell us, and star it if it helped.** Run any Public Records Actor on your own Apify account, then [leave feedback](https://github.com/GeminiGeorge22/publicrecords-mcp/blob/main/BETA.md). A star is welcome if this repo saved you time. Stars are optional and are never rewarded.
+
+See also [publicrecords-mcp](https://github.com/GeminiGeorge22/publicrecords-mcp) (MCP servers) and [publicrecords-skills](https://github.com/GeminiGeorge22/publicrecords-skills) (Agent Skills).
+
 Ready-to-run examples that call [Public Records](https://apify.com/publicrecords) Apify Actors **on your Apify account**. Set `APIFY_TOKEN` (or the platform's secret) to your own token. Do not commit tokens.
 
 Also see the 17 n8n workflows and Make / Zapier / Pipedream / Activepieces / Clay HTTP recipes in [`publicrecords-mcp/templates`](https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/templates).
@@ -18,7 +22,6 @@ Also see the 17 n8n workflows and Make / Zapier / Pipedream / Activepieces / Cla
 | Airbyte (recipe) | [`airbyte/publicrecords-grants-gov.md`](airbyte/publicrecords-grants-gov.md) |
 
 Per-Actor code examples (Python, JavaScript, curl) with READMEs in English, Spanish, Brazilian Portuguese, Portuguese, German, French, Japanese, Simplified Chinese and Korean live in the `publicrecords-*-examples` repositories under [GeminiGeorge22](https://github.com/GeminiGeorge22).
-
 
 ## Example repos index
 
